@@ -1,0 +1,149 @@
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="exp.css">
+    </head>
+    <body>
+    <header class="header">
+        <a href="#" class="logo"><span>Motor</span>Cycle</a>
+    <nav class="navbar">
+        <a href="exp.html">Home</a>
+        <a href="moterexp.html" target="_self">Motorcycle</a>
+        <a href="#services">Services</a>
+      <!----- <a href="#about">About Us</a> -->
+        <a href="review.html" target="_self">Review</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    </header>
+    <section class="home" id="home">
+        <!---<h1>Fint Your MotorCycle</h1>--><br><br><br><br><br>
+        <img src="bikes2.jpg" alt="$">
+        <button class="btn"><a href="moterexp.html" target="_self">explore MotorCycle</a></button>
+    </section>
+    <section class="motorcycle" id="motor">
+        <h1 class="heading">New<span> motorcycles</span></h1>
+                <div class="main-scroll-div">
+                    <div>
+                        <button onclick="scrolll()"><img src="scroll1.png" width="20" height="20>"</button>
+                    </div>
+                    <div class="cover">
+                        <div class="scroll-images">
+                            <div class="child"><a href="400.html"><img class="child-img" src="400.png" alt="#" ></a></div>
+                            <div class="child"><a href="versey650.html"><img class="child-img" src="versey650.png" alt="#"></a></div>
+                            <div class="child"><a href="w175.html"><img class="child-img" src="w175.png" alt="#"></a></div>
+                            <div class="child"><a href="zx10r.html"><img class="child-img" src="zx10r.png" alt="#"></a></div>
+                            <div class="child"><a href="versey650.html"><img class="child-img" src="versey650.png" alt="#"  ></a></div>
+                            <div class="child"><a href="w175.html"><img class="child-img" src="w175.png" alt="#"></a></div>
+                        </div>
+                    </div>
+                    <div>
+                        <button onclick="scrollr()"><img src="scr2.png" width="20" height="20>"</button>
+                    </div>
+                </div>
+    </section>
+    <section class="services" id="services">
+        <a href="#" class="heading">Our<span>services</span></a>
+        <div class="box-container">
+            <div class="box">
+                <img src="re.png" width="25" height="25">
+                <h3>Full Servicing</h3>
+                <p>
+                    full servicing
+                </p>
+                <button class="btn1"><a href="#">read more</a></button>
+            </div>
+            <div class="box">
+                <img src="re.png" width="25" height="25">
+                <h3>Changing Engine Oil</h3>
+                <p>
+                    changing engine oil
+                </p>
+                <button class="btn1"><a href="#">read more</a></button>
+            </div>
+            <div class="box">
+                <img src="re.png" width="25" height="25">
+                <h3>Vehile Washing</h3>
+                <p>
+                    vehile washing
+                </p>
+                <button class="btn1"><a href="#">read more</a></button>
+            </div>
+            <div class="box">
+                <img src="re.png" width="25" height="25">
+                <h3>Chain Looping</h3>
+                <p>
+                    chain looping
+                </p>
+                <button class="btn1"><a href="#">read more</a></button>
+            </div>
+        <div class="box">
+            <img src="re.png" width="25" height="25">
+            <h3>Engine Bore</h3>
+            <p>
+                engine bore
+            </p>
+            <button class="btn1"><a href="#">read more</a></button>
+        </div>
+        <div class="box">
+            <img src="re.png" width="25" height="25">
+            <h3>Reparing</h3>
+            <p>
+                reparing
+            </p>
+            <button class="btn1"><a href="#">read more</a></button>
+        </div>
+        </div>
+    </section>
+    <footer id="contact">
+        <div class="scontainer-grid">
+            <div class="boxs">
+                <h1 style="color:orangered"> Contact Details</h1>
+                <div class="logo">
+                    <br><br><br><br>
+                   Motor<span>Cycle</span>
+                    <h1>+91 9666162081</h1>
+                    <small>Email:Pavankumarbhedam@gmail.com</small>
+              </div>
+              <div class="boxs">
+                <h3>customer services</h3>
+                <div class="flex1">
+                    <ul class="ul1">
+                        <li>Help</li>
+                        <li>Contact Us</li>
+                        <li>Warranty</li>
+                        <li>Terms & Conditions</li>
+                        <li>Gift Vochers</li>
+                    </ul>
+                    <ul class="ul2">
+                        <li>My Account</li>
+                        <li>Order status</li>
+                        <li>Payments</li>
+                        <li>Order</li>
+                        <li>Cancellation</li>
+                    </ul>
+                </div>
+              </div>
+              <div class="social-media">
+                <h3>Follow <span style="color:orangered">on</span></h3>
+                <div class="logs">
+              <button class="btn2"><a href="https://www.facebook.com/pavankumarbhedam"><img src="fb.png" alt="#" class="fb" width="20" height="20"></a></button>
+               <button class="btn2"><a href="https://twitter.com/Pavanku11219391?t=Ho1Voa0yXyFJCvbeeicjbg&s=08"><img src="twitterw.png" alt="#" class="tw" width="20" height="20"></a></button>
+               <button class="btn2"><a href ="https://www.instagram.com/pavankumarbhedam/?igshid=ZDdkNTZiNTM%3D"><img src="insta.png" alt="#" class="insta" width="20" height="20"></a></button>
+                <button class="btn2"><a href="#"><img src="youtube.png" alt-="#" class="youtube" width="20" height="20"></a></button>
+              </div>
+              </div>
+        </div>
+        </div>
+    </footer>
+    </body>
+    <script>
+        function scrolll(){
+            var left=document.querySelector(".scroll-images");
+            left.scrollBy(620,0)
+        }
+        function scrollr(){
+            var right=document.querySelector(".scroll-images");
+            right.scrollBy(-620,0)
+        }
+    </script>
+</html>

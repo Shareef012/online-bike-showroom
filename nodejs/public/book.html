@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login & Registration Form</title>
+ <style>
+    
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  min-height: 100vh;
+  width: 100%;
+  background: #009579;
+}
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 290px;
+  width: 100%;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+ 
+  
+}
+
+  .container .form{
+    padding: 2rem;
+  }
+.form header{
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1.2rem;
+  margin-top: -1.1rem;
+}
+ .form input{
+   height: 40px;
+   width: 100%;
+   padding: 0 15px;
+   font-size: 12px;
+   margin-bottom: 1.3rem;
+   border: 1px solid #ddd;
+   border-radius: 6px;
+   outline: none;
+ }
+ .form input:focus{
+   box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+ }
+.form a{
+  font-size: 12px;
+  color: #009579;
+  text-decoration: none;
+}
+.form a:hover{
+  text-decoration: underline;
+}
+.form button.button{
+  color: #fff;
+  background: #009579;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 0.3rem;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.form button.button:hover{
+  background: #006653;
+}
+.signup{
+  
+  font-size: 10px;
+  text-align: center;
+}
+.signup label{
+  color: #009579;
+  cursor: pointer;
+}
+.signup label:hover{
+  text-decoration: underline;
+}
+.form button{
+  height: 40px;
+  width: 100%;
+  padding: 0 15px;
+  font-size: 12px;
+  margin-bottom: 1.3rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+}
+ </style>
+</head>
+<body>
+  <div class="container">
+    <div class="registration form">
+      <header>Booking Form</header>
+      <form action="/booking" method="post">
+        <input type="text" placeholder="Enter your name" id="name" name="name"  required>
+        <input type="number" placeholder="Enter your number"  id="number" name="number" required> 
+        <input type="text" placeholder="Enter bike model"  id="bike" name="bike" required> 
+        <input type="date" placeholder="date"  id="date" name="date" required>
+
+        <textarea class="form-control" id="addr" rows="3" name="addr" id="addr" placeholder="Address"></textarea>
+        <button type="submit" class="button">Book Now</button>
+      </form>
+    
+    </div>
+  </div>
+</body>
+</html>
